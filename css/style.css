@@ -419,7 +419,10 @@ a:focus {
   padding: 20px;
   border-radius: 5px;
 }
-
+.color-2
+{
+  background-color: #d5f7ff !important;
+}
 .service_section .box .img-box {
   display: -webkit-box;
   display: -ms-flexbox;
