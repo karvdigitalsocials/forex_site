@@ -127,7 +127,8 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background: linear-gradient(130deg, #231a6f, #0f054c);
+  /* background: linear-gradient(130deg, #231a6f, #0f054c); */
+  background-color: #231a6f;
 }
 
 .sub_page .hero_area .hero_bg_box {
@@ -484,8 +485,17 @@ a:focus {
 .service_section .btn-box a:hover {
   background-color: #007fa4;
 }
-
+.about .about_section{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #231a6f;
+  /* background: linear-gradient(130deg, #231a6f, #0f054c); */
+}
 .about_section {
+
   background-color: #00204a;
   color: #ffffff;
 }
@@ -511,7 +521,11 @@ a:focus {
 .about_section .detail-box p {
   margin-top: 15px;
 }
-
+.core-v
+{
+  background-color: rgb(189, 189, 189);
+  width: 100%;
+}
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
