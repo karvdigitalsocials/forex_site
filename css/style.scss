@@ -408,7 +408,7 @@ a:focus {
         text-transform: uppercase;
       }
 
-      p {}
+      // p {}
 
       a {
         color: $primary2;
@@ -599,6 +599,7 @@ a:focus {
 /* client section start */
 
 .client_section {
+  height: auto;
   .heading_container {
     margin-bottom: 30px;
   }
@@ -798,4 +799,3 @@ a:focus {
 }
 
 // end footer section
-
