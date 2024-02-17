@@ -524,6 +524,8 @@ a:focus {
 .core-v
 {
   background-color: rgb(189, 189, 189);
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: 100%;
 }
 .about_section .detail-box a {
