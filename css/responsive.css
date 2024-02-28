@@ -70,6 +70,14 @@
 
 /* Tablets and Smaller Laptops */
 @media (max-width: 480px) {
+  .navbar-brand
+  {
+    width: 25%;
+  }
+  .navbar-brand img 
+  {
+    width: 70% !important;
+  }
   .slider_section .detail-box h1 {
     font-size: 2rem;
   }
@@ -91,6 +99,7 @@
 
 /* Tablets */
 @media (max-width: 420px) {
+ 
   .navbar-brand span
   {
     font-size: 18px;
@@ -113,4 +122,5 @@
 /* Phones (Mobile Devices) */
 @media (max-width: 376px) {
   /* Styles for screens with a maximum width of 376 pixels (Phones) */
+ 
 }
