@@ -112,7 +112,10 @@ a:focus {
   padding-right: 25px;
   padding-left: 25px;
 }
-
+.navbar-brand
+{
+  width: 40% !important;
+}
 .navbar-brand span {
   font-weight: bold;
   font-size: 24px;
