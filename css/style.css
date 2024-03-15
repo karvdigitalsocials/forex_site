@@ -112,6 +112,26 @@ a:focus {
   padding-right: 25px;
   padding-left: 25px;
 }
+.welcome-sec-service
+{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/bg-1.jpg');
+  background-size: cover;
+}
+.welcome-sec-about
+{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/bg-2.jpg');
+  background-size: cover;
+}
+.welcome-sec-train
+{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/bg-3.jpg');
+  background-size: cover;
+}
+.welcome-sec-contact
+{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/bg-4.jpg');
+  background-size: cover;
+}
 .navbar-brand
 {
   width: 40% !important;
@@ -363,8 +383,8 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #231a6f;
-  color: #ffffff;
+  background-color: transparent !important;
+  color: black;
 }
 .about_section .heading_container {
   margin-bottom: 45px;

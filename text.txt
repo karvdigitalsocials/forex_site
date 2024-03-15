@@ -1,0 +1,3 @@
+- change the images of service
+- add modal of account details
+- link to telegram 
