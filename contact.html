@@ -34,7 +34,7 @@
   
 </head>
 <body>
-  <div class="welcome-sec-conact">
+  <div class="welcome-sec-contact">
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
@@ -91,70 +91,101 @@
   </div>
   </div>
   <!-- info section -->
-  <section class="layout_padding2">
-    <div class="container">
-      <p>Reach out to us via filling our form and a member of our team would contact you shortly. Please make sure to fill in your correct details</p>
+ <section class="layout_padding2 d-flex flex-column justify-content-center align-items-center">
+  <div class="container">
+    <p>Reach out to us via filling our form and a member of our team would contact you shortly. Please make sure to fill in your correct details</p>
+  </div>
+  <div class="form mt-5">
+    <div class="box">          
+      <div class="container row justify-content-center">
+        <form class="needs-validation row flex-column align-items-center col-12" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6 mb-3">
+              <label for="firstName" class="form-label">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="Chris" value="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+            
+            <div class="col-sm-6 mb-3">
+              <label for="lastName" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Wood" value="" required>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+            
+            <div class="col-12 mb-3">
+              <label for="username" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <input type="text" class="form-control" id="username" placeholder="ChrisWood_" required>
+                <div class="invalid-feedback">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12 mb-3">
+              <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+            
+            <div class="col-12 mb-3">
+              <label for="address" class="form-label">Address</label>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+            
+            <div class="col-12 mb-3">
+              <label for="address2" class="form-label">Address 2 <span class="text-body-secondary">(Optional)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+            </div>
+            
+            <!-- <div class="col-md-5">
+              <label for="country" class="form-label">Country</label>
+              <select class="form-select form-control" id="country" required>
+                <option value="">Choose...</option>
+                <option>United States</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div> -->
+            
+            <div class="col-md-4">
+              <label for="state" class="form-label">State</label>
+              <select class="form-select form-control" id="state" required>
+                <option value="">Choose...</option>
+                <option>California</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid state.
+              </div>
+            </div>
+            
+            <div class="col-md-3">
+              <label for="zip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required>
+              <div class="invalid-feedback">
+                Zip code required.
+              </div>
+            </div>
+          </div>
+          
+          <hr class="my-4">
+          
+          <button class="mb-5 w-50 btn btn-primary btn-lg" type="submit">Submit</button>
+        </form>
+      </div>
     </div>
-    <div class="container mt-5">
-      
-      <form action="https://docs.google.com/forms/d/e/1FAIpQLSfa5f_RaEo3AmvUyJxrr7ea7e8pfGgWl1ju1SaxC74qEmxNeA/formResponse">
-        
-        <div class="mb-3">
-          <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control" id="email" name="usp" placeholder="Enter your email" required>
-        </div>
-        <div class="mb-3">
-          <label for="name" class="form-label">Phone</label>
-          <input type="text" class="form-control" id="name" name="entry.1508418194" placeholder="Enter your Phone Number" required>
-        </div>
-        
-        <div class="mb-3">
-          <label class="form-label">Which of our services are you interested in?</label>
-          <div class="form-check mb-2">
-            <input class="form-check-input" type="radio" name="entry.1565583015" value="Forex training" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              Forex training
-            </label>
-          </div>
-          <div class="form-check mb-2">
-            <input class="form-check-input" type="radio" name="entry.1565583015" value="Forex signals" id="flexRadioDefault2" >
-            <label class="form-check-label" for="flexRadioDefault2">
-              Forex signals
-            </label>
-          </div>
-          <div class="form-check mb-2">
-            <input class="form-check-input" type="radio" name="entry.1565583015" value="Mentorship" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              Mentorship
-            </label>
-          </div>
-          <div class="form-check mb-2">
-            <input class="form-check-input" type="radio" name="entry.1565583015" value="Bi-weekly Webinar" id="flexRadioDefault2" >
-            <label class="form-check-label" for="flexRadioDefault2">
-              Bi-weekly Webinar
-            </label>
-          </div>
-          <div class="form-check mb-2">
-            <input class="form-check-input" type="radio" name="entry.1565583015" value="Portfolio Management" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              Portfolio Management
-            </label>
-          </div>
-          <div class="form-check mb-2">
-            <input class="form-check-input" type="radio" name="entry.1565583015" value="Copy-trading" id="flexRadioDefault2" >
-            <label class="form-check-label" for="flexRadioDefault2">
-              Copy-trading
-            </label>
-          </div>
-        </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Other Enquires?</label>
-          <textarea class="form-control" id="message" name="entry.1275783199" rows="5" placeholder="Enter your message" required></textarea>
-        </div>
-        <button type="submit" class="btn" style="background-color: #00bbf0; color:white;">Submit</button>
-      </form>
-    </div>
-  </section>
+  </div>
+ </section>
   <div class="layout_padding" style="background-color: rgb(201, 201, 201);">
     <div class="container text-center">
       <h2>BE APART OF OUR AMAZING TRAINING PROGRAM</h2>
@@ -166,7 +197,7 @@
       <div class="row">
         
         <div class="col-md-6 col-lg-3 info_col">
-          <img src="./images/logo.jpg" width="50%" alt="">
+          <img src="./images/logow.png" width="50%" alt="">
         </div>
         
         <div class="col-md-6 col-lg-2 mx-auto info_col">
